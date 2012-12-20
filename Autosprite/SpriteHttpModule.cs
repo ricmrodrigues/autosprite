@@ -87,22 +87,6 @@ namespace AutoSprite
                     var sprite = new Sprite(SpriteConfig.SpriteSettings);
                     sprite.Create();
                     File.WriteAllText(generatedHashPath, currentHash);
-
-                    //response.StatusCode = 200;
-
-                    //if (fileName.EndsWith(".css"))
-                    //{
-                    //    response.ContentType = "text/css";
-                    //}
-                    //else if (fileName.EndsWith(".png"))
-                    //{
-                    //    response.ContentType = "image/png";
-                    //}
-
-                    ////response.Cache.SetCacheability(HttpCacheability.Public);
-                    ////response.Cache.SetMaxAge(TimeSpan.MaxValue);
-                    //response.WriteFile(filePath);
-                    //response.End();
                 }
             }            
         }

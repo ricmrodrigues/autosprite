@@ -5,6 +5,7 @@ CSS Sprite generator for ASP.NET websites bundle style
 
 This project uses an existing one, that I converted into a Class Library:
 http://spritegenerator.codeplex.com/
+
 The CSS/Sprite generation is fully done by this project, I just wired it up into the ASP.NET application lifecycle
 
 The way you can use this utility to select which files you want to create the sprite for, is:
